@@ -39,7 +39,7 @@ public class MobileObjects {
         buttonChange = driver.findElement(By.id("ru.netology.testing.uiautomator:id/buttonChange"));
         textToBeChanged = driver.findElement(By.id("ru.netology.testing.uiautomator:id/textToBeChanged"));
         buttonActivity = driver.findElement(By.id("ru.netology.testing.uiautomator:id/buttonActivity"));
-        text = driver.findElement(By.id("ru.netology.testing.uiautomator:id/text"));
+        //text = driver.findElement(By.id("ru.netology.testing.uiautomator:id/text"));
         //PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(10)), this);
     }
 }
